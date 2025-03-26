@@ -10,13 +10,37 @@ config_version=5
 
 [application]
 
-config/name="Nextmod"
+config/name="nextmod"
 config/features=PackedStringArray("4.4", "GL Compatibility")
+boot_splash/bg_color=Color(0, 0, 0, 1)
+boot_splash/show_image=false
+boot_splash/use_filter=false
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/mode=4
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/stretch/scale_mode="integer"
+window/handheld/orientation=4
+window/vsync/vsync_mode=0
 
 [dotnet]
 
-project/assembly_name="Nextmod"
+project/assembly_name="nextmod"
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+pointing/emulate_mouse_from_touch=false
+
+[physics]
+
+common/physics_ticks_per_second=32
+3d/physics_engine="Jolt Physics"
 
 [rendering]
 
