@@ -10,13 +10,13 @@ config_version=5
 
 [application]
 
-config/name="Nextmod"
+config/name="nextmod"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [dotnet]
 
-project/assembly_name="Nextmod"
+project/assembly_name="nextmod"
 
 [rendering]
 
